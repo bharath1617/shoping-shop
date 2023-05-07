@@ -1,0 +1,33 @@
+/* Write styles here */
+body{
+
+    margin: auto;
+}
+nav {
+    background-color: black;
+    color: #ffffff;
+   display: flex;
+   flex-flow: row wrap;
+   justify-content: space-between;
+   padding: 5vh;
+   border-bottom: 2px solid white;
+   font-size: 20px;
+}
+.sign-pro{
+    display: flex;
+    justify-content: space-between;
+    gap: 2vw;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+button{
+    border: none;
+    margin: 10px 5px;
+    width: 5vw;
+    background: #000;
+    color: white;
+    padding: 10px;
+}

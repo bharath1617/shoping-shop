@@ -1,0 +1,47 @@
+body{
+    margin: auto;
+}
+nav {
+    background-color: black;
+    color: #ffffff;
+   display: flex;
+   flex-flow: row wrap;
+   justify-content: space-between;
+   padding: 5vh;
+   border-bottom: 2px solid white;
+   font-size: 20px;
+   padding: 20px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+h1{
+    text-align: center;
+}
+.container-profil{
+    width: 90vw;
+    margin: auto;
+}
+
+.names-pro>div,.edit-pass>div{
+    margin-bottom: 3vh;
+}
+
+input{
+    border: none;
+    outline: none;
+    width: 100%;
+    border: 1px solid black;
+    padding: 2vh 0 1vh 1vw;
+    margin-bottom: 10px;
+}
+button{ 
+    background: #000;
+    color: white;
+    border: none;
+    width: 15vw;
+    height: 5vh;
+    margin-top: 2vh;
+    font-size: 20px;
+}
